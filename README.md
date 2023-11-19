@@ -1,35 +1,30 @@
-# request-lab
+# Request Lab
 
-This template should help get you started developing with Vue 3 in Vite.
+O **Request Lab** é uma aplicação que simplifica o gerenciamento e a execução de requisições HTTP, facilitando o teste e a depuração de APIs.
 
-## Recommended IDE Setup
+## Recursos Principais
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- **Gestão de Requisições:** Adicione, visualize e organize suas requisições HTTP.
+- **Editor de Requisições:** Configure detalhes específicos, como método, URL, cabeçalhos e corpo.
+- **Execução Simples e Rápida:** Execute individualmente com um clique.
 
-## Customize configuration
+## Como Usar
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+1. **Instalação:**
+   ```sh
+   npm install
+   ```
 
-## Project Setup
+2. **Execução:**
+    ```sh
+    npm run dev
+    ```
 
-```sh
-npm install
-```
+3. **Acesse a aplicação em [http://localhost:3000](http://localhost:3000).**
 
-### Compile and Hot-Reload for Development
+4. **Adicione suas Requisições:**
+   - Clique no icone de mais "Adicionar Requisição" para configurar uma nova requisição.
+   - Edite os parametros da requisição e salve
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+5. **Execute as Requisições:**
+   - No painel principal, clique no icone de avião "Executar" para testar suas requisições.
