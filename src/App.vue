@@ -1,15 +1,14 @@
 <script setup>
-// import { RouterLink, RouterView } from 'vue-router'
-// import HelloWorld from './components/HelloWorld.vue'
+import MainMenu from './components/MainMenu.vue'
 </script>
 
 <template>
   <main>
-    <aside></aside>
+    <aside>
+      <MainMenu />
+    </aside>
     <article>
-      <header></header>
-      <div class="content"></div>
-      <footer></footer>
+      <RouterView />
     </article>
   </main>
   <!-- <header>
@@ -32,13 +31,12 @@
 main {
   display: flex;
   min-height: 100vh;
-  background: url('./fundo.png');
+  // background: url('./fundo.png');
   aside {
-    border: solid 1px gray;
+    border-right: solid 2px var(--color-border);
     width: 70px;
   }
   article {
-    border: solid 1px gray;
     flex: 1;
   }
 }
